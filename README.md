@@ -2,6 +2,8 @@
 このスクリプトは、AWS CLI を使用して AWS Cost Explorer から指定した期間の利用料金を取得します。
 期間指定やクレジット除外フィルタをサポートし、簡単にコストを追跡可能です。
 
+以前Qiitaに投稿した[AWS費用監視ツール(前編:AWS マネジメントコンソール&AWS CLI)](https://qiita.com/t-taku/items/ef0e7edc79f89929d466)のツールを更新。
+
 ## 特徴
 - 指定した期間の "AmortizedCost" を取得します。
 - デフォルトでクレジット（`RECORD_TYPE = Credit`）を除外します。
